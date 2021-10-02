@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+
+#listaProductos{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#containerTitle{
+    margin-top: 20px;
+    background-color: orange;
+    
+}
+
+#containerTable{
+    background-color: purple;
+}
+
+#buttonRegresar{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

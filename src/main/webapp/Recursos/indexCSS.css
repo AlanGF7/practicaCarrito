@@ -1,0 +1,25 @@
+h1{
+    line-height: 1.6em;
+    font-family: "Lucida San Unicode", "Lucida Grande", "Sans-Serif";
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+form{
+    line-height: 1.6em;
+    font-family: "Lucida San Unicode", "Lucida Grande", "Sans-Serif";
+    font-size: 15px;
+    color: #669;
+    margin-left: 20px;
+}
+
+#buttonEnviar{
+    
+    margin-left: 240px;
+    font-size: 20px;
+}
+
+
+
