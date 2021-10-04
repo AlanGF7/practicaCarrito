@@ -1,3 +1,17 @@
+body{
+    background-color: beige;
+}
+
+#mainContainer{
+    margin: 20px;
+    float: left;
+    border-style: solid;
+    border-color: red;
+    max-width: 400px;
+    border-radius: 25px;
+    background-color: blanchedalmond;
+    border-color: bisque;
+}
 h1{
     line-height: 1.6em;
     font-family: "Lucida San Unicode", "Lucida Grande", "Sans-Serif";
@@ -19,6 +33,8 @@ form{
     
     margin-left: 240px;
     font-size: 20px;
+    margin-bottom: 20px;
+
 }
 
 

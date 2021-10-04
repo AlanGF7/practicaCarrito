@@ -110,7 +110,7 @@ public class ListaCarritoServlet extends HttpServlet {
         out.print("</table>");
         out.print("</br>");
         out.print("<a href='/practicaCarrito'>");
-        out.print("<button type='button' class='btn btn-primary' name='buttonRegresar' id='buttonRegresar'> Regresar</button> </a>");
+        out.print("<button type='button' class='btn btn-dark' name='buttonRegresar' id='buttonRegresar'> Regresar</button> </a>");
 
         out.print("</body>");
         out.print("</html>");

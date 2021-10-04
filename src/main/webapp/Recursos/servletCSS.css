@@ -10,15 +10,18 @@ body{
 
 #containerTitle{
     margin-top: 20px;
-    background-color: orange;
+    background-color: #279C33;
+    border-radius: 25px;
     
 }
 
 #containerTable{
-    background-color: purple;
+    background-color: #C94ECC;
+    border-radius: 25px;
 }
 
 #buttonRegresar{
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 20px;
 }

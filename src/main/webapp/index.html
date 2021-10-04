@@ -9,43 +9,14 @@
         <link href="Recursos/indexCSS.css" rel="stylesheet"/>
     </head>
     <body>
-        <h1>Formulario</h1>
-        <form action="/practicaCarrito/ListaCarritoServlet" method="post" name="form1">
-            Artículo a agregar: <input type="text" name="articulo">
-            <br>
-            <br>
-            <button type="submit" id="buttonEnviar" name="buttonEnviar" class="btn btn-primary">Enviar!</button>
-            
-        </form>
-        
-        <table class="table table-dark table-striped table-hover">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="container" id="mainContainer">
+            <h1>Formulario</h1>
+                <form action="/practicaCarrito/ListaCarritoServlet" method="post" name="form1">
+                    Artículo a agregar: <input type="text" name="articulo">
+                    <br>
+                    <br>
+                    <button type="submit" id="buttonEnviar" name="buttonEnviar" class="btn btn-dark">Enviar!</button>
+                </form>
+            </div>
     </body>
 </html>
